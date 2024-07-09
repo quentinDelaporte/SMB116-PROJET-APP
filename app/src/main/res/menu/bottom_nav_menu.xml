@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/scores"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="Scores" />
+        <item
+            android:id="@+id/jouer"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Jouer" />
+        <item
+            android:id="@+id/friends"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="Amis" />
+
+</menu>

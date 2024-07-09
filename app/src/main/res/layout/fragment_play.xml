@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayFragment"
+    android:id="@+id/fragment_container">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Quel est l'artiste ?"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/stopBtn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="stop" />
+
+        <Button
+            android:id="@+id/choix1Btn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/choix2Btn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/choix3Btn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/choix4Btn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Button" />
+
+    </LinearLayout>
+</FrameLayout>
